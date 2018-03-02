@@ -4,3 +4,5 @@ services:
     build: .
     ports:
      - "8083:80"
+    volume:
+     - ~/projects/simple-nginx/config/default.conf:/etc/nginx/conf.d/default.conf
