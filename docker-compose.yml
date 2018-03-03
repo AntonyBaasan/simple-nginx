@@ -5,7 +5,7 @@ services:
     ports:
      - "8083:80"
     volumes:
-     - "/home/ant/projects/simple-nginx/conf/default.conf:/etc/nginx/conf.d/default.conf"
+     - "/home/ant/projects/simple-nginx/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf"
 
   joke-web:
     build: ./joke-web
