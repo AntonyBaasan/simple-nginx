@@ -17,9 +17,7 @@ services:
     ports:
      - "8082:8080"
 
-  apache:
-    build: ./apache
+  ghost:
+    build: ./ghost
     ports:
-     - "8083:8080"
-    volumes:
-     - "/home/ant/projects/simple-nginx/apache/htdocs:/usr/local/apache2/htdocs"
+     - "8083:2368"

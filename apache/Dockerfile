@@ -1,2 +1,0 @@
-FROM httpd
-EXPOSE 8080

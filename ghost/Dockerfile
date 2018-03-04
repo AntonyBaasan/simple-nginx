@@ -1,0 +1,2 @@
+FROM ghost
+EXPOSE 2368
