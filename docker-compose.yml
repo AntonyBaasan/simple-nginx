@@ -18,6 +18,11 @@ services:
     ports:
      - "8082:8080"
 
+  invalid-page:
+    build: ./invalid-page
+    ports:
+     - "8083:8080"
+
   # ghost:
   #   build: ./ghost
   #   ports:
