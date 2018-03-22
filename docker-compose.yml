@@ -9,6 +9,9 @@ services:
 
   jokehub:
     build: ./jokehub
+    environment:
+     - BUILD_TARGET=${BUILD_TARGET}
+     - JAR_JOKEHUB=${JAR_JOKEHUB}
     ports:
      - "8081:8080"
 
