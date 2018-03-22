@@ -17,7 +17,7 @@ services:
     ports:
      - "8082:8080"
 
-  ghost:
-    build: ./ghost
-    ports:
-     - "8083:2368"
+  # ghost:
+  #   build: ./ghost
+  #   ports:
+  #    - "8083:2368"
