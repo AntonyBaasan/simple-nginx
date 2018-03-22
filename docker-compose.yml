@@ -9,7 +9,6 @@ services:
 
   jokehub:
     build: ./jokehub
-
     ports:
      - "8081:8080"
 
